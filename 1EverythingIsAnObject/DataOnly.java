@@ -5,8 +5,8 @@ public class DataOnly {
 	  boolean b; 
 	  public static void main(String[] args){
 		  DataOnly data = new DataOnly();
-		  data.i = 47;
-		  data.d = 1.1;
+		  data.i = 48;
+		  data.d = 1.12;
 		  data.b = false;
 		  System.out.println(data.i);
 		  System.out.println(data.b);
