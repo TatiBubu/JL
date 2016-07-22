@@ -2,25 +2,26 @@ package com.epam.pdp.sto.thinkinginjava.controllingexecution;
 
 /**
  * Created by Tetyana_Stolyarova on 6/21/2016.
- * Exercise 3: (1) Modify Exercise 2 (which is RandomValuesComparison class) so that your code is surrounded by an “infinite” while loop.
+ * Exercise 3: (1) Modify Exercise 2 (which is RandomValuesComparison class)
+ * so that your code is surrounded by an “infinite” while loop.
  * It will then run until you interrupt it from the keyboard
  */
 
 import java.util.Random;
 
 public class RandomValuesComparisonByWhile {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Random rand = new Random(100);
-        while (true){                       //
-            int j = rand.nextInt();
-            int k = rand.nextInt();
-            if (j>k)
-                System.out.println(j+" > "+k);
-            else
-                if (j < k)
-                    System.out.println(j + " < " + k);
-            else
-                    System.out.println(j + " = " + k);
+        while (true) {                       //
+            int randNumber1 = rand.nextInt();
+            int randNumber2 = rand.nextInt();
+            if (randNumber1 > randNumber2) {
+                System.out.println(randNumber1 + " > " + randNumber2);
+            } else if (randNumber1 < randNumber2) {
+                System.out.println(randNumber1 + " < " + randNumber2);
+            } else {
+                System.out.println(randNumber1 + " = " + randNumber2);
+            }
 
         }
 

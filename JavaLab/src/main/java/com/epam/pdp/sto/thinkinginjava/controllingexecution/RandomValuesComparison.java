@@ -1,27 +1,27 @@
 package com.epam.pdp.sto.thinkinginjava.controllingexecution;
 
+import java.util.Random;
+
 /**
  * Created by Tetyana_Stolyarova on 6/21/2016.
  * Exercise 2: (2) Write a program that generates 25 random int values.
  * For each value, use an if-else statement to classify it as greater than, less than,
  * or equal to a second randomly generated value.
  */
-import java.util.*;
 
 public class RandomValuesComparison {
-    public static void main(String[] args){
-        int i;
+    public static void main(String[] args) {
         Random rand = new Random(100);
-        for (i=1; i<=25; i++){
-            int j = rand.nextInt();
-            int k = rand.nextInt();
-            if (j>k)
-                System.out.println(j+" > "+k);
-            else
-                if (j < k)
-                    System.out.println(j + " < " + k);
-            else
-                    System.out.println(j + " = " + k);
+        for (int i = 1; i <= 25; i++) {
+            int randNumber1 = rand.nextInt();
+            int randNumber2 = rand.nextInt();
+            if (randNumber1 > randNumber2) {
+                System.out.println(randNumber1 + " > " + randNumber2);
+            } else if (randNumber1 < randNumber2) {
+                System.out.println(randNumber1 + " < " + randNumber2);
+            } else {
+                System.out.println(randNumber1 + " = " + randNumber2);
+            }
 
         }
 

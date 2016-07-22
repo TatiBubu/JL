@@ -6,16 +6,19 @@ package com.epam.pdp.sto.thinkinginjava.controllingexecution;
  */
 public class ReturnExersice6 {
     static boolean test(int testval, int begin, int end) {
-        if(testval >= begin && testval<=end)
+        if (testval >= begin && testval <= end) {
             return true;
-        else
+        } else {
             return false;
-            }
+        }
+    }
+
     public static void main(String[] args) {
-        if (test(10, 5, 1))
-            System.out.println(" is beetween " );
-        else
-            System.out.println(" is not beetween " );
+        if (test(10, 5, 1)) {
+            System.out.println(" is beetween ");
+        } else {
+            System.out.println(" is not beetween ");
+        }
 
     }
 }
