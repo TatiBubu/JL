@@ -8,7 +8,7 @@ package com.epam.pdp.sto.thinkinginjava.initializationcleanup;
 public class StringArray {
     public static void main(String[] args) {
         String[] arr = {"one", "two","three"};
-        for (int index = 0; index <= arr.length; index++) {
+        for (int index = 0; index < arr.length; index++) {
             System.out.println("arr[" + index + "]=" + arr[index]);
         }
     }

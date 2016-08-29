@@ -12,7 +12,7 @@ public class PrintValuesUseReturn {
             if (index == 99) {
                 return;
             }
-             System.out.println("index = " + index);
+            System.out.println("index = " + index);
         }
     }
 }

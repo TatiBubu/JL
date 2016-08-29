@@ -8,26 +8,49 @@ package com.epam.pdp.sto.thinkinginjava.initializationcleanup;
 public class Bill {
     boolean paid = true;
 
-    Bill(boolean payment) {
+    public boolean isPaid() {
+        return paid;
+    }
+
+    public void setPaid(boolean paid) {
+        this.paid = paid;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    private String id;
+
+    Bill(boolean payment, String id) {
         paid = payment;
+        this.id = id;
     }
 
     void pay() {
         paid = true;
     }
 
-    protected void finalizeBill() {
+    protected void finalize() {
+        System.out.println("Releasing bill with id: " + this.id);
         if (!paid) {
-            System.out.println("Error: bill not paid");
+            System.out.println("Warn: bill not paid");
         }
     }
 
-    public static void main(String[] args) {
-        Bill tea = new Bill(false);
-        tea.pay();
-        new Bill(false);
-        System.gc();
-
+    @Override
+    public String toString() {
+        return "Bill{"
+                + "paid="
+                + paid
+                +  ", id='"
+                + id
+                + '\''
+                + '}';
     }
 }
 /**Output:

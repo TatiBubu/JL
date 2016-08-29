@@ -22,12 +22,14 @@ public class SwitchExercise8 {
                 case 4:
                     System.out.println("case 4");
                     break;
-                default: System.out.println("default");
+                default:
+                    System.out.println("default");
             }
         }
     }
 }
-/**Output for "case with break":
+/**
+ * Output for "case with break":
  * case 1
  * case 2
  * case 3
