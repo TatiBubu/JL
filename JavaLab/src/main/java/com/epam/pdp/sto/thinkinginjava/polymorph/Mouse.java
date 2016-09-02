@@ -8,6 +8,10 @@ public class Mouse extends Rodent {
     System.out.println("Mouse id caving");
 }
 
+@Override public void jump() {
+    System.out.println("Mouse Jump()");
+}
+
 @Override public String toString() {
    return "Mouse";
 }

@@ -8,4 +8,7 @@ public class Gerbil extends Rodent {
         System.out.println("Gerbil is jumping");
     }
 
+    @Override public void cave() {
+        System.out.println("Overriden Gerbil cave");
+    }
 }
