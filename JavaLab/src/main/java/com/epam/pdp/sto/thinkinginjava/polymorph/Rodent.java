@@ -1,4 +1,8 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph;
+/**Exercise 1: (1) Modify Exercise 9 in the previous chapter so that Rodent is an abstract class.
+ * Make the methods of Rodent abstract whenever possible.
+ * */
+
 
 /**
  * Created by Tetyana_Stolyarova on 8/30/2016.
@@ -8,14 +12,10 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
  * Create an array of Rodent, fill it with different specific types of Rodents,
  * and call your base-class methods to see what happens.
  */
-public class Rodent {
-    public void cave() {
-        System.out.println("Rodent is caving");
-    }
+abstract class Rodent {
+    public abstract void cave();
 
-    public void jump() {
-        System.out.println("Rodent is jumping");
-    }
+    public abstract void jump();
 
     public String toString() {
        return "Rodent";
