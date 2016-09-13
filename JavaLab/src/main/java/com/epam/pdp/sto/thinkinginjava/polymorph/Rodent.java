@@ -3,6 +3,16 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
  * Make the methods of Rodent abstract whenever possible.
  * */
 
+/*abstract class Rodent {
+    public abstract void cave();
+
+    public abstract void jump();
+
+    public String toString() {
+       return "Rodent";
+    }
+}*/
+
 
 /**
  * Created by Tetyana_Stolyarova on 8/30/2016.
@@ -12,14 +22,16 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
  * Create an array of Rodent, fill it with different specific types of Rodents,
  * and call your base-class methods to see what happens.
  */
-abstract class Rodent {
-    public abstract void cave();
 
-    public abstract void jump();
+/* Exercise 7: (1) Change Exercise 9 in the Polymorphism chapter
+* so that Rodent is an interface.
+*/
 
-    public String toString() {
-       return "Rodent";
-    }
+interface Rodent {
+     void cave();
+
+    void jump();
+
 }
 
 

@@ -3,16 +3,32 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
 /**
  * Created by Tetyana_Stolyarova on 8/30/2016.
  */
-public class Mouse extends Rodent {
-@Override public void cave() {
-    System.out.println("Mouse id caving");
+//public class Mouse extends Rodent {
+//@Override public void cave() {
+//    System.out.println("Mouse id caving");
+//}
+//
+//@Override public void jump() {
+//    System.out.println("Mouse Jump()");
+//}
+//
+//@Override public String toString() {
+//   return "Mouse";
+//}
+//}
+
+public class Mouse implements Rodent {
+    public void cave() {
+        System.out.println("Mouse id caving");
+    }
+
+   public void jump() {
+        System.out.println("Mouse Jump()");
+    }
+
+ public String toString() {
+        return "Mouse";
+    }
 }
 
-@Override public void jump() {
-    System.out.println("Mouse Jump()");
-}
 
-@Override public String toString() {
-   return "Mouse";
-}
-}
