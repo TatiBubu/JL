@@ -7,6 +7,8 @@ package com.epam.pdp.sto.thinkinginjava.interfaces;
  */
 public abstract class MusicEquipmentAbstract implements Turntable, Mixer, Cdj, DjHardware {
 
+    abstract void myMethod();
+
     public void mix() {
         System.out.println("Mixing from abstract");
     }
