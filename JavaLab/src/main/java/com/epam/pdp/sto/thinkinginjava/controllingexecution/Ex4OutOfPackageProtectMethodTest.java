@@ -1,6 +1,6 @@
 package com.epam.pdp.sto.thinkinginjava.controllingexecution;
 
-import com.epam.pdp.sto.thinkinginjava.accesscontrol.Ex4Protected;
+import com.epam.pdp.sto.thinkinginjava.accesscontrol.exercises.Ex4Protected;
 
 /**
  * Created by Tetyana_Stolyarova on 8/23/2016.
