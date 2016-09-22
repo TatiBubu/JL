@@ -1,4 +1,4 @@
-package com.epam.pdp.sto.thinkinginjava.accesscontrol.debug;
+package com.epam.pdp.sto.thinkinginjava.accesscontrol.exercises.debug;
 
 /**
  * Created by Tetyana_Stolyarova on 8/22/2016.

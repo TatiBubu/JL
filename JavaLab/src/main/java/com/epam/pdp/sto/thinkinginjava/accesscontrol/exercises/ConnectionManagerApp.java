@@ -1,6 +1,4 @@
-package com.epam.pdp.sto.thinkinginjava.accesscontrol;
-
-import com.epam.pdp.sto.thinkinginjava.accesscontrol.ConnectionManager;
+package com.epam.pdp.sto.thinkinginjava.accesscontrol.exercises;
 
 /**
  * Created by Tetyana_Stolyarova on 8/23/2016.

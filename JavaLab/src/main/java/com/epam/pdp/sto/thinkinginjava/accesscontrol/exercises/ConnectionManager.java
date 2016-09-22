@@ -1,7 +1,9 @@
-package com.epam.pdp.sto.thinkinginjava.accesscontrol;
+package com.epam.pdp.sto.thinkinginjava.accesscontrol.exercises;
 
 /**
  * Created by Tetyana_Stolyarova on 8/23/2016.
+ * This is class called ConnectionManager that manages a fixed array of Connection objects;
+ * it helps to resolve EX8; follow ConnectionManagerApp for full solution.
  */
 public class ConnectionManager {
 
