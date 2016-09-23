@@ -1,4 +1,4 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.interfaces.exercises;
 
 /**
  * Created by Tetyana_Stolyarova on 8/30/2016.
@@ -16,7 +16,7 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
 /* Exercise 7: (1) Change Exercise 9 in the Polymorphism chapter
 * so that Rodent is an interface.
  */
-public class Hamster implements Rodent {
+public class Hamster implements Rodent1 {
 
     public void jump() {
         System.out.println("Hamster is jumping");

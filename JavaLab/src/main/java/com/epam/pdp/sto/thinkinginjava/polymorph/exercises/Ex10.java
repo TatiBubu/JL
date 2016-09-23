@@ -9,7 +9,7 @@ package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
 
 public class Ex10 {
     public static void main() {
-        Base test = new SubBase();
+        SubBase test = new SubBase();
         test.method1();
     }
 }

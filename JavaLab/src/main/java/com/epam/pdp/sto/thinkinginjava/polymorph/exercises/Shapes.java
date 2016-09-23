@@ -1,6 +1,9 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
 
-class Shapes {
+import com.epam.pdp.sto.thinkinginjava.polymorph.RandomShapeGenerator;
+import com.epam.pdp.sto.thinkinginjava.polymorph.Shape;
+
+public class Shapes {
     private static RandomShapeGenerator gen =
             new RandomShapeGenerator();
     /* @Override void draw() {

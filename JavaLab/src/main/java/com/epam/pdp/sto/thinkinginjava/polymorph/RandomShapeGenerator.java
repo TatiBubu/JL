@@ -3,12 +3,14 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
 /**
  * Created by Tetyana_Stolyarova on 8/30/2016.
  */
+  import com.epam.pdp.sto.thinkinginjava.polymorph.exercises.Fractus;
+
   import java.util.Random;
 
 
 // A "factory" that randomly creates shapes.
 
-class RandomShapeGenerator {
+public class RandomShapeGenerator {
     private Random rand = new Random(47);
 
     public Shape next() {
