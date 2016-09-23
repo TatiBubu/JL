@@ -1,5 +1,4 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
-
 /**
  * Created by Best on 25.08.2016.
  * Exercise 1: (2) Create a Cycle class, with subclasses Unicycle, Bicycle and Tricycle.

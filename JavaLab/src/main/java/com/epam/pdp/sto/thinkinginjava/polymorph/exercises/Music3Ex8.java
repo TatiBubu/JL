@@ -39,3 +39,15 @@ public class Music3Ex8 {
         }
     }
 }
+/**Output:
+ * Wind.play() B_FLAT
+ Brass.play() B_FLAT
+ Drums.play() B_FLAT
+ Woodwind.play() B_FLAT
+ Wind.play() B_FLAT
+ Percussion.play() B_FLAT
+ Brass.play() B_FLAT
+ Drums.play() B_FLAT
+ Brass.play() B_FLAT
+ Percussion.play() B_FLAT
+ */

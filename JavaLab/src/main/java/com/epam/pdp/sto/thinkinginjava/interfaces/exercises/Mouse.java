@@ -1,4 +1,4 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.interfaces.exercises;
 
 /**
  * Created by Tetyana_Stolyarova on 8/30/2016.
@@ -17,7 +17,7 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
 //}
 //}
 
-public class Mouse implements Rodent {
+public class Mouse implements Rodent1 {
     public void cave() {
         System.out.println("Mouse id caving");
     }

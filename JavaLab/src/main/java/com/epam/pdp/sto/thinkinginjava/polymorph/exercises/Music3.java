@@ -14,7 +14,7 @@ import com.epam.pdp.sto.thinkinginjava.polymorph.Woodwind;
  * Try printing the Instrument objects using System.out.println( ) (without any casting).
  */
 public class Music3 {
-    // Doen’t care about type, so new types
+    // Don’t care about type, so new types
 // added to the system still work right:
     public static void tune(Instrument instrument) {
 // ...

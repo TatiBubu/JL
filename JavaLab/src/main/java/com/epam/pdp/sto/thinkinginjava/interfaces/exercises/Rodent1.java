@@ -1,4 +1,4 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.interfaces.exercises;
 /**Exercise 1: (1) Modify Exercise 9 in the previous chapter so that Rodent is an abstract class.
  * Make the methods of Rodent abstract whenever possible.
  * */
@@ -27,7 +27,7 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
 * so that Rodent is an interface.
 */
 
-interface Rodent {
+public interface Rodent1 {
      void cave();
 
     void jump();

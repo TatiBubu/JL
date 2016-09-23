@@ -1,4 +1,4 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.interfaces.exercises;
 
 /**
  * Created by Tetyana_Stolyarova on 8/30/2016.
@@ -13,7 +13,7 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
 //    }
 //}
 
-public class Gerbil implements Rodent {
+public class Gerbil implements Rodent1 {
      public void jump() {
         System.out.println("Gerbil is jumping");
     }

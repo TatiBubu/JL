@@ -1,7 +1,7 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph;
 
-class Lettuce {
-    Lettuce() {
+public class Lettuce {
+    public Lettuce() {
         System.out.println("Lettuce()");
     }
 }

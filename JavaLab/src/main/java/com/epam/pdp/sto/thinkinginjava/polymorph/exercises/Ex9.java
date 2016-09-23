@@ -1,4 +1,7 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
+
+import com.epam.pdp.sto.thinkinginjava.polymorph.RandomRodentGeneration;
+
 /**
  * Exercise 9: (3) Create an inheritance hierarchy of Rodent: Mouse, Gerbil, Hamster, etc. In the base class,
  * provide methods that are common to all Rodents, and override these in the derived classes to perform different
@@ -26,22 +29,25 @@ public class Ex9 {
         }
     }
 }
-//* Output:
-//Mouse id caving
-//        Mouse id caving
-//        Rodent is caving
-//        Rodent is caving
-//        Mouse id caving
-//        Mouse
-//        Mouse
-//        Rodent
-//        Rodent
-//        Mouse
-//        Rodent is jumping
-//        Rodent is jumping
-//        Gerbil is jumping
-//        Rodent is jumping
-//        Rodent is jumping
+/** Output:
+ * Mouse id caving
+ Mouse id caving
+ Overriden Gerbil cave
+ Overriden Hamster cave
+ Mouse id caving
+ Mouse
+ Mouse
+ Rodent
+ Rodent
+ Mouse
+ Mouse Jump()
+ Mouse Jump()
+ Gerbil is jumping
+ Hamster is jumping
+ Mouse Jump()
+ */
+
+
 
 
 

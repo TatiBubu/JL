@@ -1,8 +1,13 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph;
 
+import com.epam.pdp.sto.thinkinginjava.polymorph.exercises.Gerbil;
+import com.epam.pdp.sto.thinkinginjava.polymorph.exercises.Hamster;
+import com.epam.pdp.sto.thinkinginjava.polymorph.exercises.Mouse;
+import com.epam.pdp.sto.thinkinginjava.polymorph.exercises.Rodent;
+
 import java.util.Random;
 
-class RandomRodentGeneration {
+public class RandomRodentGeneration {
 
     Random rand = new Random(49);
 

@@ -1,4 +1,6 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
+
+import com.epam.pdp.sto.thinkinginjava.polymorph.Shape;
 
 /**
  * Exercise 4: (2) Add a new type of Shape to Shapes.java
