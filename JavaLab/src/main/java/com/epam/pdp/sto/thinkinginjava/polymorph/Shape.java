@@ -9,23 +9,3 @@ public class Shape {
         System.out.println("Not Overridden");
     }
 }
-////** Output:
-//Triangle.draw()
-//        Triangle.draw()
-//        Square.draw()
-//        Triangle.draw()
-//        Square.draw()
-//        Triangle.draw()
-//        Square.draw()
-//        Triangle.draw()
-//        Circle.draw()
-//        Overridden Triangle()
-//        Overridden Triangle()
-//        Not Overridden
-//        Overridden Triangle()
-//        Not Overridden
-//        Overridden Triangle()
-//        Not Overridden
-//        Overridden Triangle()
-//        Not Overridden
-

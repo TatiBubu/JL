@@ -1,11 +1,14 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
+
+import com.epam.pdp.sto.thinkinginjava.polymorph.Note;
 
 /**
  * Created by Best on 30.08.2016.
- * Exercise 7: (2) Add a new type of Instrument to Music3.java and verify that polymorphism works for your new type.
+ * Exercise 7: (2) Add a new type of Instrument (this Drums)
+ * to Music3.java and verify that polymorphism works for your new type.
  */
 public class Drums extends Instrument {
-    void play(Note note) {
+    public void play(Note note) {
         System.out.println("Drums.play() " + note);
     }
 

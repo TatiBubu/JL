@@ -1,7 +1,8 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph;
 
-class Woodwind extends Wind {
-    void play(Note note) {
+public class Woodwind extends Wind {
+    @Override
+    public void play(Note note) {
         System.out.println("Woodwind.play() " + note);
     }
 
@@ -9,4 +10,3 @@ class Woodwind extends Wind {
         return "Woodwind";
     }
 }
-

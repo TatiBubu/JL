@@ -1,8 +1,10 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph;
 
-class Wind extends Instrument {
+import com.epam.pdp.sto.thinkinginjava.polymorph.exercises.Instrument;
 
-    void play(Note note) {
+public class Wind extends Instrument {
+
+    public void play(Note note) {
 
         System.out.println("Wind.play() " + note);
     }

@@ -1,4 +1,11 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
+
+import com.epam.pdp.sto.thinkinginjava.polymorph.Brass;
+import com.epam.pdp.sto.thinkinginjava.polymorph.Note;
+import com.epam.pdp.sto.thinkinginjava.polymorph.Percussion;
+import com.epam.pdp.sto.thinkinginjava.polymorph.Stringed;
+import com.epam.pdp.sto.thinkinginjava.polymorph.Wind;
+import com.epam.pdp.sto.thinkinginjava.polymorph.Woodwind;
 
 /**
  * Created by Best on 29.08.2016.
@@ -7,7 +14,7 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
  * Try printing the Instrument objects using System.out.println( ) (without any casting).
  */
 public class Music3 {
-    // Doesn’t care about type, so new types
+    // Doen’t care about type, so new types
 // added to the system still work right:
     public static void tune(Instrument instrument) {
 // ...

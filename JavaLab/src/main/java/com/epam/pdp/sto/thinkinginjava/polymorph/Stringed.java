@@ -1,10 +1,12 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph;
 
+import com.epam.pdp.sto.thinkinginjava.polymorph.exercises.Instrument;
+
 /**
  * Created by Tetyana_Stolyarova on 8/30/2016.
  */
-class Stringed extends Instrument {
-    void play(Note note) {
+public class Stringed extends Instrument {
+    public void play(Note note) {
         System.out.println("Stringed.play() " + note);
     }
 
