@@ -1,9 +1,10 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph;
 
 /**
- * Created by Tetyana_Stolyarova on 8/30/2016.
+ * Exercise 4: (2) Add a new type of Shape to Shapes.java
+ * and verify in main( ) that polymorphism works for your new type as it does in the old types.
  */
-class Fractus extends Shape {
+public class Fractus extends Shape {
     public void draw() {
         System.out.println("Fractus.draw()");
     }

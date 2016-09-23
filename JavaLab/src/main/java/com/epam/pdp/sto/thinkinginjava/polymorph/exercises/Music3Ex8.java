@@ -1,4 +1,7 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
+
+import com.epam.pdp.sto.thinkinginjava.polymorph.Note;
+import com.epam.pdp.sto.thinkinginjava.polymorph.RandonInstrumentGeneration;
 
 /**
  * Created by Best on 30.08.2016.

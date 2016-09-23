@@ -1,4 +1,4 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
 /*Exercise 15: (2) Add a RectangularGlyph to PolyConstructors.java and
 /demonstrate the problem described in this section. */
 

@@ -1,14 +1,16 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph;
 /**
- * Created by Best on 30.08.2016.
- * Exercise 8: (2) Modify Music3.java so that it randomly creates Instrument objects the way Shapes.java does.
+ * Exercise 9: (3) Create an inheritance hierarchy of Rodent: Mouse, Gerbil, Hamster, etc. In the base class,
+ * provide methods that are common to all Rodents, and override these in the derived classes to perform different
+ * behaviors depending on the specific type of Rodent. Create an array of Rodent,
+ * fill it with different specific types of Rodents, and call your base-class methods to see what happens.
  */
 
 public class Ex9 {
     public static void main(String[] args) {
         RandomRodentGeneration gen = new RandomRodentGeneration();
         Rodent[] rodentArr = new Rodent[5];
-// Fill up the array with instruments:
+// Fill up the array with rodents:
         for (int i = 0; i < rodentArr.length; i++) {
             rodentArr[i] = gen.next();
         }

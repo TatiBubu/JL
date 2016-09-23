@@ -21,3 +21,23 @@ class Shapes {
         }
     }
 }
+/**Output:
+ * Triangle.draw()
+ Square.draw()
+ Triangle.draw()
+ Fractus.draw()
+ Fractus.draw()
+ Triangle.draw()
+ Fractus.draw()
+ Square.draw()
+ Triangle.draw()
+ Overridden Triangle()
+ Not Overridden
+ Overridden Triangle()
+ Not Overridden
+ Not Overridden
+ Overridden Triangle()
+ Not Overridden
+ Not Overridden
+ Overridden Triangle()
+ */

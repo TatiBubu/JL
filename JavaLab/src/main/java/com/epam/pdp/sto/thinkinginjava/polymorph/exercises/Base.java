@@ -1,4 +1,4 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
 
 class Base {
     protected void method1() {

@@ -1,4 +1,4 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
 
 /**
  * Created by Tetyana_Stolyarova on 8/30/2016.

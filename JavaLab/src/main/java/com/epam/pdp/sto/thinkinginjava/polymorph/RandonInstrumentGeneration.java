@@ -1,8 +1,11 @@
 package com.epam.pdp.sto.thinkinginjava.polymorph;
 
+import com.epam.pdp.sto.thinkinginjava.polymorph.exercises.Drums;
+import com.epam.pdp.sto.thinkinginjava.polymorph.exercises.Instrument;
+
 import java.util.Random;
 
-class RandonInstrumentGeneration {
+public class RandonInstrumentGeneration {
     Random rand = new Random(49);
 
     public Instrument next() {

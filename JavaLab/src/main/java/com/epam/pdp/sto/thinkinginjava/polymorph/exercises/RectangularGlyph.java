@@ -1,4 +1,6 @@
-package com.epam.pdp.sto.thinkinginjava.polymorph;
+package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
+
+import com.epam.pdp.sto.thinkinginjava.polymorph.Glyph;
 
 class RectangularGlyph extends Glyph {
     private int width = 2;
@@ -6,6 +8,7 @@ class RectangularGlyph extends Glyph {
     private int height = 3;
 
     RectangularGlyph(int width, int height) {
+        super();
         this.width = width;
         this.height = height;
         System.out.println("RectangularGlyph.RectangularGlyph(), width = " + width
