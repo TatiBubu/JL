@@ -4,12 +4,19 @@ package com.epam.pdp.sto.thinkinginjava.polymorph.exercises;
 //        * which returns the number of wheels. Modify ride( ) to call wheels( ) and verify that polymorphism works.
 //        */
 class Cycle {
+    protected int wheelsCount;
+
+    Cycle(int wheelsCount) {
+        this.wheelsCount = wheelsCount;
+    }
+
     public void ride(int km) {
         System.out.println("Cycle rides " + km + " km;");
     }
 
     public void wheels() {
-        System.out.println("from super");
+        System.out.println("wheelsCount is "
+                + wheelsCount);
     }
 }
 
