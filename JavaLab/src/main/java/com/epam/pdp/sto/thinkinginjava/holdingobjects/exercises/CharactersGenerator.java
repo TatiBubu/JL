@@ -12,10 +12,14 @@ public class CharactersGenerator {
     public String next() {
         switch (it) {
             default:
-            case 0 : it++; return "Joan";
-            case 1 : it++; return "Mathey";
-            case 2 : it++; return "Marco";
-            case 4 : it = 0; return "Luca";
+            case 0 : it++;
+                return "Joan";
+            case 1 : it++;
+                return "Mathey";
+            case 2 : it++;
+                return "Marco";
+            case 4 : it = 0;
+                return "Luca";
         }
     }
 

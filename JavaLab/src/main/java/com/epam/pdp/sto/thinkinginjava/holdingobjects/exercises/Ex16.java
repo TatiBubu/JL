@@ -1,6 +1,9 @@
 package com.epam.pdp.sto.thinkinginjava.holdingobjects.exercises;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Exercise 16: (5) Create a Set of the vowels.
  */

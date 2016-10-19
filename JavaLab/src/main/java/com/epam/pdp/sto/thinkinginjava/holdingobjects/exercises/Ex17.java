@@ -24,7 +24,7 @@ public class Ex17 {
 
         Iterator<String> it = gmap.keySet().iterator();
 
-        while(it.hasNext()) {
+        while (it.hasNext()) {
             String str = it.next();
             System.out.println(str
                     + ": ");

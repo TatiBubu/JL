@@ -1,7 +1,8 @@
 package com.epam.pdp.sto.thinkinginjava.holdingobjects.exercises;
 
+import java.util.ArrayList;
 import java.util.List;
-import java.util.*;
+
 /**
  * Exercise 7: (3) Create a class, then make an initialized array of objects of your class.
  * Fill a List from your array. Create a subset of your List by using subList( ),

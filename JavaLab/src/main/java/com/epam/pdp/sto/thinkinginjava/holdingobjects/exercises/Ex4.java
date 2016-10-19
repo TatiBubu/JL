@@ -1,9 +1,10 @@
 package com.epam.pdp.sto.thinkinginjava.holdingobjects.exercises;
 
-import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.*;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
 /**
  * Exercise 4: (3) Create a generator class that produces character names (as String objects) from your favorite book
@@ -18,7 +19,7 @@ public class Ex4 {
         String[] arr = new String[10];
         gen.fill(arr);
 
-        for(String str : arr) {
+        for (String str : arr) {
             System.out.println(str
                     + ", ");
         }

@@ -11,11 +11,12 @@ import java.util.Set;
 public class Ex2 {
     public static void main(String[] args) {
         Collection<Integer> col = new HashSet<>();
-        for(int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++) {
             col.add(i); // Autoboxing
-
-        for(Integer it : col)
+        }
+        for (Integer it : col) {
             System.out.print(it + ", ");
+        }
     }
 }
 /**Output:
