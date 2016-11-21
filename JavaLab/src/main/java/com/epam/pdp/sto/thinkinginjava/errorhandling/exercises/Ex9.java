@@ -11,9 +11,9 @@ import java.util.List;
  * In main( ), call the method but only use a single catch clause that will catch all three types of exceptions.
  */
 public class Ex9 {
-    private static final String EXCEP_TYPE_1 = "L1";
-    private static final String EXCEP_TYPE_2 = "L2";
-    private static final String EXCEP_TYPE_3 = "M";
+    protected static final String EXCEP_TYPE_1 = "L1";
+    protected static final String EXCEP_TYPE_2 = "L2";
+    protected static final String EXCEP_TYPE_3 = "M";
 
 
     public static void throw3Exceptions(String excepType) throws Exception {
