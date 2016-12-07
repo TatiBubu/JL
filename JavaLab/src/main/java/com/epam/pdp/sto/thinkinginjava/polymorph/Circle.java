@@ -6,6 +6,10 @@ package com.epam.pdp.sto.thinkinginjava.polymorph;
 
 
 public class Circle extends Shape {
+    public Circle() {
+        System.out.println("Circle()");
+    }
+
     @Override
     public void draw() {
         System.out.println("Circle.draw()");
