@@ -13,7 +13,9 @@ public class Turtle {
     }
 
     public void move(int xint, int yint) {
-        form.format("%s The Turtle is at (%d,%d)\n", name, xint, yint);
+     String str = String.format("The Turtle %s is at (%d,%d)\n", name, xint, yint);
+        System.out.println(str);
+     //   form.format("The Turtle %s is at (%d,%d)\n", name, xint, yint);
     }
 
     public static void main(String[] args) {
@@ -28,5 +30,6 @@ public class Turtle {
         terry.move(2,5);
         tommy.move(3,3);
         terry.move(3,3);
+
     }
 }

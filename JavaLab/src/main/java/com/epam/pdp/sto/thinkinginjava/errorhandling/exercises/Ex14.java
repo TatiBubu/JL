@@ -27,7 +27,7 @@ public class Ex14 {
             } catch (OnOffException1 excep) {
                 System.out.println("OnOffException1");
                 sw.off();
-            } catch (OnOffException2 excep) {
+            }   catch (OnOffException2 excep) {
                 System.out.println("OnOffException2");
                 sw.off();
             }

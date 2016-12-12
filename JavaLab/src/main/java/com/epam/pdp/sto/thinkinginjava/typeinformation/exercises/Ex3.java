@@ -13,14 +13,15 @@ import java.util.List;
  */
 public class Ex3 {
     public static void main(String[] args) {
-        Rhomboid rhomb = new Rhomboid();
+        Shape rhomb = new Rhomboid();
         List<Shape> shapes = Arrays.asList(rhomb, new Circle());
         for (Shape shape : shapes) {
             shape.draw();
         }
         ((Rhomboid)rhomb).draw();
+
         //Following downcasting cannot be resolved:
-        //   ((Circle)rhomb).draw();
+       // ((Circle)rhomb).draw();
     }
 }
 /**Output:

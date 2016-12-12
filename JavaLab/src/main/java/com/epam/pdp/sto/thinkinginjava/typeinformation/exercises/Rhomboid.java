@@ -6,6 +6,8 @@ import com.epam.pdp.sto.thinkinginjava.polymorph.Shape;
  * Created by Best on 08.12.2016.
  */
 public class Rhomboid extends Shape {
+    boolean highlightFlag = false;
+
     Rhomboid() {
         System.out.println("Rhomboid()");
     }
@@ -23,5 +25,9 @@ public class Rhomboid extends Shape {
     public void printMsg() {
         System.out.println("Rhomboid Triangle()");
     }
+
+//    public String toString(){
+//        return "Rhomboid is " + (highlightFlag ? "highlighted": "unhighlighted");
+//    }
 
 }
